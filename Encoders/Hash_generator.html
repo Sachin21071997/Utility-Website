@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Hash_generator.css">
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script defer src = "Hash_generator.js" ></script>
+    <title>Hash Generator</title>
+</head>
+<body>
+    <h1>Hash Generator</h1>
+    <p>Select the appropriate hash generator from the buttons below </p>
+    <div>
+        <input id = "input_string" type = "text" placeholder="Enter the String">
+        <input id = "hashed_output" type = "text" readonly placeholder="Hashed Result"> 
+    </div>
+    <div>
+        <input id = "MD5_button" type = "button" value = "MD5 Generator">
+        <input id = "SHA-1_button" type = "button" value = "SHA-1 Generator">
+        <input id = "SHA-256_button" type = "button" value = "SHA-256 Generator">
+        <input id = "SHA-512_button" type = "button" value = "SHA-512 Generator">
+    </div>
+    <h2>What is Hash Generation?</h2>
+    <p>
+        The <b>Hash Generator</b> processor creates a Hash key for each input attribute. The output Hash key will be the same (and unique) for each distinct data value that is input to it.   
+    </p>
+    <p>
+       <b>Hash keys</b> are often used when 'diffing' data, for example to create processes that only run various processors on records that have changed in important attributes since the last time they were processed
+    </p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timestamepToepoch.css">
+    <script defer src = "timestamepToepoch.js" ></script>
+    <title>Human Date to Epoch</title>
+</head>
+<body>
+    <h1>Human Date to Epoch Converter</h1>
+    <p>Please enter the Human Date to be converted to Epoch </p>
+    <div>
+        <label for="input_human_date"><b>Human Date:</b></label>
+        <input id = "input_human_date" type = "text" placeholder="11 April 2022"> // how to set current human date
+    </div>
+    <div>
+        <input id = "convert_button" type = "button" value = "Convert to Epoch">
+    </div>
+    <br>
+    <div>
+        <label for="output_epoch"><b>Epoch:</b></label>
+        <input id = "output_epoch" type = "text" >
+    </div>
+    <div>
+        <h2>What is Unix Time Stamp?</h2>
+        <p>
+            The unix time stamp is a way to track time as a running total of seconds. This count starts at the Unix Epoch on January 1st, 1970 at UTC. Therefore, the unix time stamp is merely the number of seconds between a particular date and the Unix Epoch. 
+        </p>
+        <p>
+            It is very useful to computer systems for tracking and sorting dated information in dynamic and distributed applications both online and client side.
+        </p>
+    </div>
+</body>
+</html>

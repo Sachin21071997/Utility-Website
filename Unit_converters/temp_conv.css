@@ -1,0 +1,38 @@
+#input_unit{
+    border: 2px solid black;
+    border-radius:5px;
+    padding-top: 6px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 2px;
+}
+#output_unit{
+    border-radius:5px;
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    padding-top: 6px;
+    position: relative;
+    left: 2px;
+}
+body{
+    background-color: #f6f8fa;
+}
+#FahConverter{
+    background-color: #0d4b5f;
+    color: white;
+    position: relative;
+    top:3px;
+    left:155px;
+    
+   
+}
+#CelConverter{
+    background-color: #0d4b5f;
+    color: white;
+    position: relative;
+    left:155px;
+    top: 3px;
+    
+}

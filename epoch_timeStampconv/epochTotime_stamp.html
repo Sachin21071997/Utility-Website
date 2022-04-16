@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="epochTotime_stamp.css">
+    <script defer src = "epochTotime_stamp.js" ></script>
+    <title>Epoch to Human Date</title>
+</head>
+<body>
+    <h1>Epoch to Human Date Converter</h1>
+    <p>Please enter the epoch to be converted to Human Date </p>
+    <div>
+        <label for="input_epoch"><b>Epoch:</b></label>
+        <input id = "input_epoch" type = "text" placeholder="1648544669"> // how to set current epoch value
+    </div>
+    <div>
+        <input id = "convert_button" type = "button" value = "Convert to Human Date">
+    </div>
+    <br>
+    <div>
+        <label for="output_year"><b>Year:</b></label>
+        <input id = "output_year" type = "text" >
+    </div>
+    <br>
+    <div>
+        <label for="output_month"><b>Month:</b></label>
+        <input id = "output_month" type = "text" >
+    </div>
+    <br>
+    <div>
+        <label for="output_day"><b>Day:</b></label>
+        <input id = "output_day" type = "text" >
+    </div> 
+    <br>  
+    <div>
+        <label for="output_hours"><b>Hours:</b></label>
+        <input id = "output_hours" type = "text" >
+    </div>  
+    <br> 
+    <div>
+        <label for="output_minutes"><b>Minutes:</b></label>
+        <input id = "output_minutes" type = "text" > 
+    </div>
+    <br>
+    <div>
+        <label for="output_seconds"><b>Seconds:</b></label>
+        <input id = "output_seconds" type = "text" >
+    </div>
+    <div class="description">
+        <h2>What does this tool do?</h2>
+        <p>
+            It converts the unix time stamp which is used by computer systems for tracking and sorting dated information to Human Readable Date Format.
+            <br>
+            Other Similar type of Converters can be accessed using this <a href = "https://www.epochconverter.com/">link</a>.
+        </p>
+    </div>
+</body>
+</html>

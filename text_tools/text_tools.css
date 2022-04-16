@@ -1,0 +1,17 @@
+#characterinput{
+    border: 2px solid black;
+    border-radius:5px;
+    padding-top: 6px;
+    height: 80px;
+    width: 200px;
+    position: relative;
+    left: 2px;
+}
+#charcount{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 55px;
+}
+body{
+    background-color: #f6f8fa;
+}   

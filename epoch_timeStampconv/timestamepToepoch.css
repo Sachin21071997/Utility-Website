@@ -1,0 +1,29 @@
+#input_human_date{
+    border: 2px solid black;
+    border-radius:6px;
+    padding-top: 6px;
+    position: relative;
+    left: 13px;
+    height: 150px;
+    
+}
+body{
+    background-color: #f6f8fa;
+}
+#convert_button{
+    position: relative;
+    left: 110px;
+    top:5px;
+    background-color: #0d4b5f;
+    color: white;
+    font-size: 12px;
+}
+#output_epoch{
+    border-radius:6px;
+    border: 2px solid black;
+    padding-top: 6px;
+    position: relative;
+    left: 57px;  
+    height: 150px;
+   
+}

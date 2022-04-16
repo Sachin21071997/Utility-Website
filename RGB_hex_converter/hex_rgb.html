@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hex_rgb.css">
+    <script defer src = "hex_rgb.js" ></script>
+    <title>Hex to RGB Converter</title>
+</head>
+<body>
+    <h1>HEX to RGB Color Converter</h1>
+    <p>Please enter the color code in HEX format (#FFFFFF) </p>
+    <div>
+        <label for="input_hex"><b>Color Code:</b></label>
+        <input id = "input_hex" type = "text" placeholder="#FFFFFF">
+    </div>
+    <div>
+        <input id = "convert_button" type = "button" value = "Convert to RGB">
+    </div>
+    <br>
+    <div>
+        <label for="output_red"><b>Red:</b></label>
+        <input id = "output_red" type = "text" placeholder="255">
+        
+    </div>
+    <br>
+    <div>
+        <label for="output_green"><b>Green:</b></label>
+        <input id = "output_green" type = "text" placeholder="255">  
+    </div>
+    <br>
+    <div>
+        <label for="output_blue"><b>Blue:</b></label>
+        <input id = "output_blue" type = "text" placeholder="255">  
+    </div>
+    <br>
+    <div>
+        <h2>What does this HEX to RGB converter do?</h2>
+        <p>
+            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software.
+            Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code.
+        </p>
+    </div>
+</body>
+</html>
