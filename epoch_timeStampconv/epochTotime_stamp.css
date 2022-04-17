@@ -90,8 +90,13 @@ h1 {
     background-color: rgb(199, 241, 136);
     display: inline;
     border-radius:8px;
+    width: 90px;
+    height: 20px;
     border: 2px solid black;
     padding: 4px;
+    font-weight: bold;
+    text-align: center;
+    
     
     
     
