@@ -1,7 +1,7 @@
-const button_encode = document.querySelector('#encoder_button');
-const button_decode = document.querySelector('#decoder_button');
-const input_string = document.querySelector('#input_string');
-const result_string =document.querySelector('#output_string');
+const button_encode = document.querySelector('#EncoderButton');
+const button_decode = document.querySelector('#DecoderButton');
+const input_string = document.querySelector('#InputString');
+const result_string =document.querySelector('#OutputString');
 function encode_base64(Base64Encode){
     return btoa(Base64Encode);
 }

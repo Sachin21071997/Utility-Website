@@ -1,4 +1,4 @@
-.header_section{
+.HeaderSection{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -8,12 +8,12 @@
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
     
 }
-.header_section img{
+.HeaderSection img{
     height: 100px;
     width: 100px;
     margin-right: 30px;
 }
-.body_section{
+.BodySection{
     margin-left: 5vw;
     margin-right: 5vw;
     width: 90vw;
@@ -26,23 +26,23 @@
     padding: 10px;
 
 }
-.element img{
+.Element img{
     margin-top: 5%;
     height: 55%;
     /* width: 45%; */
     margin-right: 5%;
     /* position:static; */
 }
-.element:hover{
+.Element:hover{
     position: relative;
     bottom: 3px;
 }
 
-.content{
+.Content{
     width:50%;
     overflow-wrap: break-word;
 }
-.element{
+.Element{
     height: 33vh;
     width:35vw;
     display: flex;
@@ -56,10 +56,10 @@
     position:static;
     
 }
-.element a{
+.Element a{
     display: inline;
 }
-.content div p{
+.Content div p{
     overflow-wrap: break-word;
     flex-wrap: wrap;
 }

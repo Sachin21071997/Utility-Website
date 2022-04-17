@@ -1,8 +1,8 @@
-const button_convert = document.querySelector('#convert_button');
-const input_hex =document.querySelector('#input_hex');
-const output_red = document.querySelector('#output_red');
-const output_green = document.querySelector('#output_green');
-const output_blue = document.querySelector('#output_blue');
+const button_convert = document.querySelector('#ConvertButton');
+const input_hex =document.querySelector('#InputHex');
+const output_red = document.querySelector('#OutputRed');
+const output_green = document.querySelector('#OutputGreen');
+const output_blue = document.querySelector('#OutputBlue');
 function HexTorgb(HexToConvert){
     let RGBcomponent = { red:"",blue:"",green:""};
     RGBcomponent.red = parseInt(HexToConvert[1]+HexToConvert[2],16);

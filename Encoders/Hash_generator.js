@@ -1,9 +1,9 @@
-const button_md5 = document.querySelector('#MD5_button');
-const button_sha1 = document.querySelector('#SHA-1_button');
-const button_sha256 = document.querySelector('#SHA-256_button');
-const button_sha512= document.querySelector('#SHA-512_button');
-const input_string = document.querySelector('#input_string');
-const output_string =document.querySelector('#hashed_output');
+const button_md5 = document.querySelector('#MD5_Button');
+const button_sha1 = document.querySelector('#SHA-1_Button');
+const button_sha256 = document.querySelector('#SHA-256_Button');
+const button_sha512= document.querySelector('#SHA-512_Button');
+const input_string = document.querySelector('#InputString');
+const output_string =document.querySelector('#HashedOutput');
 button_md5.addEventListener('click', (event)=>{
     output_string.value = CryptoJS.MD5(input_string.value);
 })

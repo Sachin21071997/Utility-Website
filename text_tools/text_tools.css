@@ -1,4 +1,4 @@
-#characterinput{
+#CharacterInput{
     border: 2px solid black;
     border-radius:5px;
     padding-top: 6px;
@@ -7,7 +7,7 @@
     position: relative;
     left: 2px;
 }
-#charcount{
+#CharCount{
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     left: 55px;
@@ -15,3 +15,20 @@
 body{
     background-color: #f6f8fa;
 }   
+.header_section {
+    border: 2px solid black;
+    display: flex;
+}
+#HomeImg {
+    height: 1.5cm;
+    width: 1.5cm;
+}
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 100px;
+
+}

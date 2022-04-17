@@ -9,46 +9,49 @@
     <title>Epoch to Human Date</title>
 </head>
 <body>
-    <h1>Epoch to Human Date Converter</h1>
-    <p>Please enter the epoch to be converted to Human Date </p>
+    <div class ='header_section'>
+        <a href="../index.html"><img src="../Images/home_button.png" id="HomeImg"></a>
+        <h1 id="heading">Epoch to Human Date Converter</h1>     
+    </div>
+    <h3>Please enter the epoch to be converted to Human Date</h3>
     <div>
-        <label for="input_epoch"><b>Epoch:</b></label>
-        <input id = "input_epoch" type = "text" placeholder="1648544669"> // how to set current epoch value
+        <label for="InputEpoch"><b>Epoch:</b></label>
+        <input id = "InputEpoch" type = "text" placeholder="1648544669"> // how to set current epoch value
     </div>
     <div>
-        <input id = "convert_button" type = "button" value = "Convert to Human Date">
-    </div>
-    <br>
-    <div>
-        <label for="output_year"><b>Year:</b></label>
-        <input id = "output_year" type = "text" >
+        <input id = "ConvertButton" type = "button" value = "Convert to Human Date">
     </div>
     <br>
     <div>
-        <label for="output_month"><b>Month:</b></label>
-        <input id = "output_month" type = "text" >
+        <label for="OutputYear"><b>Year:</b></label>
+        <input id = "OutputYear" type = "text" >
     </div>
     <br>
     <div>
-        <label for="output_day"><b>Day:</b></label>
-        <input id = "output_day" type = "text" >
+        <label for="OutputMonth"><b>Month:</b></label>
+        <input id = "OutputMonth" type = "text" >
+    </div>
+    <br>
+    <div>
+        <label for="OutputDay"><b>Day:</b></label>
+        <input id = "OutputDay" type = "text" >
     </div> 
     <br>  
     <div>
-        <label for="output_hours"><b>Hours:</b></label>
-        <input id = "output_hours" type = "text" >
+        <label for="OutputHours"><b>Hours:</b></label>
+        <input id = "OutputHours" type = "text" >
     </div>  
     <br> 
     <div>
-        <label for="output_minutes"><b>Minutes:</b></label>
-        <input id = "output_minutes" type = "text" > 
+        <label for="OutputMinutes"><b>Minutes:</b></label>
+        <input id = "OutputMinutes" type = "text" > 
     </div>
     <br>
     <div>
-        <label for="output_seconds"><b>Seconds:</b></label>
-        <input id = "output_seconds" type = "text" >
+        <label for="OutputSeconds"><b>Seconds:</b></label>
+        <input id = "OutputSeconds" type = "text" >
     </div>
-    <div class="description">
+    <div class="Description">
         <h2>What does this tool do?</h2>
         <p>
             It converts the unix time stamp which is used by computer systems for tracking and sorting dated information to Human Readable Date Format.

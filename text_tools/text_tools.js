@@ -1,5 +1,5 @@
-const character_input = document.querySelector('#characterinput');
-const char_count = document.querySelector('#charcount');
+const character_input = document.querySelector('#CharacterInput');
+const char_count = document.querySelector('#CharCount');
 
 character_input.addEventListener('input',(event)=>{
     const lng = event.target.value.length;

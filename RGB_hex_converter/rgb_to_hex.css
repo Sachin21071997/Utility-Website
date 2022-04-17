@@ -1,4 +1,4 @@
-#input_red{
+#InputRed{
     border: 2px solid black;
     border-radius:10px;
     padding-top: 6px;
@@ -8,7 +8,7 @@
     width: 200px;
     
 }
-#input_green{
+#InputGreen{
     border-radius:10px;
     border: 2px solid black;
     padding-top: 6px;
@@ -17,7 +17,7 @@
     height: 25px;
     width: 200px;
 }
-#input_blue{
+#InputBlue{
     border-radius:10px;
     border: 2px solid black;
     padding-top: 6px;
@@ -29,14 +29,14 @@
 body{
     background-color: #f6f8fa;
 }
-#convert_button{
+#ConvertButton{
     position: relative;
     left: 55px;
     top:4px;
     background-color: #0d4b5f;
     color: white;
 }
-#output_hex{
+#OutputHex{
     background-color: black;
     color: white;
     position: relative;
@@ -47,3 +47,21 @@ body{
     
    
 }
+.header_section {
+    border: 2px solid black;
+    display: flex;
+}
+#HomeImg {
+    height: 1.5cm;
+    width: 1.5cm;
+}
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 100px;
+
+}
+

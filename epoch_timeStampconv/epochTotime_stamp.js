@@ -9,14 +9,14 @@ const convertToHumanDate = () => {
     let date = new Date(inputText.value * 1000);
     outputText.value = date.toLocaleString();
 }
-const button_convert = document.querySelector('#convert_button');
-const input_epoch =document.querySelector('#input_epoch');
-const output_year = document.querySelector('#output_year');
-const output_month = document.querySelector('#output_month');
-const output_day = document.querySelector('#output_day');
-const output_hours = document.querySelector('#output_hours');
-const output_minutes = document.querySelector('#output_minutes');
-const output_seconds = document.querySelector('#output_seconds');
+const button_convert = document.querySelector('#ConvertButton');
+const input_epoch =document.querySelector('#InputEpoch');
+const output_year = document.querySelector('#OutputYear');
+const output_month = document.querySelector('#OutputMonth');
+const output_day = document.querySelector('#OutputDay');
+const output_hours = document.querySelector('#OutputHours');
+const output_minutes = document.querySelector('#OutputMinutes');
+const output_seconds = document.querySelector('#OutputSeconds');
 
 button_convert.addEventListener('click', (event)=>{
     output_year.value = convert_to_human_date(input_epoch.value).year;

@@ -1,4 +1,4 @@
-#input_string{
+#InputString{
     border: 2px solid black;
     border-radius:5px;
     padding-top: 6px;
@@ -7,7 +7,7 @@
     position: relative;
     left: 2px;
 }
-#hashed_output{
+#HashedOutput{
     border-radius:5px;
     border: 2px solid black;
     height: 250px;
@@ -19,7 +19,7 @@
 body{
     background-color: #f6f8fa;
 }
-#MD5_button{
+#MD5_Button{
     background-color: #0d4b5f;
     color: white;
     position: relative;
@@ -28,7 +28,7 @@ body{
     
    
 }
-#SHA-1_button{
+#SHA-1_Button{
     background-color: #0d4b5f;
     color: white;
     position: relative;
@@ -36,7 +36,7 @@ body{
     top: 3px;
     
 }
-#SHA-256_button{
+#SHA-256_Button{
     background-color: #0d4b5f;
     color: white;
     position: relative;
@@ -44,7 +44,7 @@ body{
     top: 3px;
     
 }
-#SHA-512_button{
+#SHA-512_Button{
     background-color: #0d4b5f;
     color: white;
     position: relative;
@@ -52,3 +52,21 @@ body{
     top: 3px;
     
 }
+.header_section {
+    border: 2px solid black;
+    display: flex;
+}
+#HomeImg {
+    height: 1.5cm;
+    width: 1.5cm;
+}
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 100px;
+
+}
+

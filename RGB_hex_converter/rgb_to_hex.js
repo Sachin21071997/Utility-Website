@@ -1,8 +1,8 @@
-const button_convert = document.querySelector('#convert_button');
-const input_red = document.querySelector('#input_red');
-const input_green = document.querySelector('#input_green');
-const input_blue = document.querySelector('#input_blue');
-const result_string =document.querySelector('#output_hex');
+const button_convert = document.querySelector('#ConvertButton');
+const input_red = document.querySelector('#InputRed');
+const input_green = document.querySelector('#InputGreen');
+const input_blue = document.querySelector('#InputBlue');
+const result_string =document.querySelector('#OutputHex');
 function componentToHex(c) {
     var hex = c.toString(16);
     return hex.length == 1 ? "0" + hex : hex;

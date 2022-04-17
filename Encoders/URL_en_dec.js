@@ -1,7 +1,7 @@
-const button_encode = document.querySelector("#encoder_button");
-const button_decode = document.querySelector('#decoder_button');
-const input_url = document.querySelector('#input_url');
-const result_url =document.querySelector('#output_url');
+const button_encode = document.querySelector("#EncoderButton");
+const button_decode = document.querySelector('#DecoderButton');
+const input_url = document.querySelector('#InputUrl');
+const result_url =document.querySelector('#OutputUrl');
 button_encode.addEventListener('click', (event)=>{
     result_url.value = encodeURIComponent(input_url.value);
 })
