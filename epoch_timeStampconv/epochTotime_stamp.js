@@ -11,13 +11,13 @@ const convertToHumanDate = () => {
 }
 const button_convert = document.querySelector('#ConvertButton');
 const input_epoch =document.querySelector('#InputEpoch');
+const CurrentEpoch =document.querySelector('#CurrentEpoch');
 const output_year = document.querySelector('#OutputYear');
 const output_month = document.querySelector('#OutputMonth');
 const output_day = document.querySelector('#OutputDay');
 const output_hours = document.querySelector('#OutputHours');
 const output_minutes = document.querySelector('#OutputMinutes');
 const output_seconds = document.querySelector('#OutputSeconds');
-
 button_convert.addEventListener('click', (event)=>{
     output_year.value = convert_to_human_date(input_epoch.value).year;
     output_month.value = convert_to_human_date(input_epoch.value).month;
@@ -26,3 +26,7 @@ button_convert.addEventListener('click', (event)=>{
     output_minutes.value = convert_to_human_date(input_epoch.value).minutes;
     output_seconds.value = convert_to_human_date(input_epoch.value).seconds;
 })
+let ticker = () => {
+    CurrentEpoch.value = Math.floor(new Date().getTime()/1000.0);
+}
+setInterval(ticker,1000);
