@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stopwatch.css">
+    <script defer src = "StopWatch.js" ></script>
+    <title>StopWatch</title>
+</head>
+<body>
+    <div class ='header_section'>
+        <a href="../index.html"><img src="../Images/home_button.png" id="HomeImg"></a>
+        <h1 id="heading">StopWatch</h1>     
+    </div>
+    <br>
+    <div>
+        <center>
+            <div id="mainstopwatch">
+                <div class="mainTime">
+                <span id="mainminute">00</span>
+                <span id="mainsecond">00</span>
+                <span id="milliseconds">00</span>
+            </div>
+            <br>
+            <button id="start" onclick="start();">Start</button>
+            <button id="stop" onclick="stop();">Stop</button>
+            <button id="reset" onclick="reset();">Reset</button>
+        </center>
+    </div>
+    <div>
+        <h2>StopWatch:</h2>
+        <p>
+            This page provide functionality of a digital stopwatch, which measures the time duration with millisecond accuracy.  There are three buttons provided viz Start, Stop and Reset to start, stop and reset the timer in the stopwatch.
+        </p>
+    </div>
+
+</body>
+</html>
